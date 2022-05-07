@@ -120,7 +120,7 @@ public class NetherRoofFinder extends BlockFinder {
 
             commandList.clear();
 
-            commandList.add("./BedrockCracker");
+            commandList.add("BedrockCracker.exe");
             run(commandList, true);
 
             List<Long> outputSeeds = new ArrayList<>();
